@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World-Class Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 font-sans text-gray-800">
+
+    <!-- Fixed Header -->
+    <header class="fixed top-0 w-full bg-white shadow-lg z-50 h-16">
+        <div class="max-w-7xl mx-auto px-4 h-full flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-600">MyBrand</div>
+            <nav class="space-x-6" aria-label="Main Navigation">
+                <a href="#home" class="text-gray-600 hover:text-blue-600 transition">Home</a>
+                <a href="#about" class="text-gray-600 hover:text-blue-600 transition">About</a>
+                <a href="#services" class="text-gray-600 hover:text-blue-600 transition">Services</a>
+                <a href="#portfolio" class="text-gray-600 hover:text-blue-600 transition">Portfolio</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600 transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home"
+        class="relative h-screen flex items-center justify-center bg-gradient-to-r from-blue-100 to-purple-100 pt-20">
+        <div class="text-center px-4 max-w-2xl">
+            <h1 class="text-4xl md:text-5xl font-bold text-blue-700 mb-4">Welcome to Our World-Class Website</h1>
+            <p class="text-lg text-gray-700 mb-6">Delivering innovative solutions with modern design and top-notch
+                quality.</p>
+            <a href="#about"
+                class="inline-block px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Explore
+                More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">About Us</h2>
+            <p class="max-w-3xl mx-auto text-gray-600 mb-10">We are a passionate team committed to delivering the best
+                digital experiences. Our expertise spans UI/UX design, web development, and digital marketing. Join us
+                to build innovative solutions that make a difference.</p>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">Our Mission</h3>
+                    <p>To create user-centered designs that elevate brands and enhance user engagement.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">Our Vision</h3>
+                    <p>To be the leading digital agency known for innovation, quality, and customer satisfaction.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">Our Values</h3>
+                    <p>Creativity, Integrity, Excellence, and Customer-Centric Approach.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8 text-gray-800">Our Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+                    <h3 class="text-xl font-semibold mb-4">Web Design</h3>
+                    <p class="text-gray-600 mb-4">Creating beautiful, user-friendly websites tailored to your needs.</p>
+                    <button class="mt-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Learn
+                        More</button>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+                    <h3 class="text-xl font-semibold mb-4">Development</h3>
+                    <p class="text-gray-600 mb-4">Building fast, scalable, and reliable web applications and solutions.
+                    </p>
+                    <button class="mt-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Learn
+                        More</button>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+                    <h3 class="text-xl font-semibold mb-4">Digital Marketing</h3>
+                    <p class="text-gray-600 mb-4">Boost your brand with expert marketing strategies and campaigns.</p>
+                    <button class="mt-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Learn
+                        More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8 text-gray-800">Our Portfolio</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="overflow-hidden rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
+                    <img src="3.jpg" alt="Project 1" class="w-full h-full object-cover" />
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
+                    <img src="3.jpg" alt="Project 2" class="w-full h-full object-cover" />
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
+                    <img src="3.jpg" alt="Project 3" class="w-full h-full object-cover" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center text-gray-800">Contact Us</h2>
+            <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg space-y-4">
+                <div>
+                    <label class="block mb-2 font-semibold">Name</label>
+                    <input type="text"
+                        class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        placeholder="Your Name" />
+                </div>
+                <div>
+                    <label class="block mb-2 font-semibold">Email</label>
+                    <input type="email"
+                        class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        placeholder="Your Email" />
+                </div>
+                <div>
+                    <label class="block mb-2 font-semibold">Message</label>
+                    <textarea
+                        class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button class="w-full mt-4 px-4 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Send
+                    Message</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white shadow-inner py-6 mt-8">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-gray-600">
+            <p>&copy; 2024 MyBrand. All rights reserved.</p>
+            <div class="mt-4 md:mt-0 space-x-4">
+                <a href="#" class="hover:text-blue-600 transition">Privacy Policy</a>
+                <a href="#" class="hover:text-blue-600 transition">Terms of Service</a>
+                <a href="#" class="hover:text-blue-600 transition">Support</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
